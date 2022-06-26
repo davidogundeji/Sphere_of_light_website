@@ -1,0 +1,421 @@
+/* DEFAULT STYLES BEGINS HERE */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.primary-color {
+    color: #fd5000;
+}
+
+.primary-bg {
+    background-color: #fd5000;
+}
+
+.secondary-color {
+    color: #0d1128;
+}
+
+.secondary-bg {
+    background-color: #0d1128;
+}
+
+/* DEFAULT STYLES ENDS HERE */
+
+/* HEADER STYLES BEGINS HERE */
+.menu-container-color {
+    background-color: #0d1128;
+}
+
+.logo {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 30px
+}
+
+.menu-list-container {
+    margin-left: 70px;
+}
+
+.menu-list-container ul li a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu-list-container ul li a:hover {
+    color: #fd5000;
+}
+
+.dropdown .dropdown-menu li a {
+    color: black;
+}
+
+/* button styles */
+form .btn-outline-success {
+    background-color: #fd5000;
+    color: white;
+    border: none;
+}
+
+form .btn-outline-success:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #fd5000;
+}
+
+/* toggle style */
+.navbar-toggler {
+    color: #fd5000;
+}
+
+.navbar-toggler span {
+    background-color: #fd5000;
+}
+
+
+/* HEADER STYLES ENDS HERE */
+
+
+
+/* SLIDER STYLES START HERE*/
+/* the height of the image */
+.carousel-item img {
+    height: 120vh;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    background-size: cover;
+}
+
+/* the surface i applied to make the text on it bold */
+.carousel-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #0d1128;
+    opacity: 0.5;
+}
+
+/* it moves up the caption on the images  */
+.carousel-caption {
+    top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.carousel-caption .slc {
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.carousel-caption h5 {
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel-caption p {
+    font-size: 13px;
+    top: 2rem;
+}
+
+/* for the 1st and 3rd slide btn (download and volunteer btn) */
+.download-btn .btn {
+    padding: 10px 22px;
+    color: white;
+    background-color: #fd5000;
+}
+
+.download-btn .btn:hover {
+    padding: 10px 22px;
+    color: #fd5000;
+    border: 2px solid #fd5000;
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 800px) {
+    .carousel-caption h5 {
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    .carousel-caption {
+        top: 120px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .carousel-caption p {
+        display: none;
+    }
+
+    .carousel-item img {
+        height: 70vh;
+    }
+
+    .carousel-item {
+        height: 70vh;
+        min-height: 300px;
+        background: no-repeat scroll center scroll;
+        background-size: cover;
+    }
+
+    .download-btn .btn {
+        font-size: 12px;
+        padding: 8px 18px;
+        color: white;
+        background-color: #fd5000;
+    }
+
+    .download-btn .btn:hover {
+        padding: 8px 20px;
+        color: white;
+        border: 2px solid #fd5000;
+        background-color: transparent;
+    }
+}
+
+/* SLIDER STYLES ENDS HERE */
+
+
+/* SLC COVENANTS STYLES */
+.card-container {
+    background-color: #fd5000;
+    color: white;
+    margin-top: -60px;
+    height: 400px;
+}
+
+.card-container h5 {
+    padding-top: 80px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.what-we-offer-icon {
+    background-color: #0d1128;
+    color: white;
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.body-text h5 {
+    font-weight: bolder;
+}
+
+/* large screen size */
+@media only screen and (max-width: 1000px) {
+    .card {
+
+        color: white;
+        margin-top: 110px;
+
+    }
+
+    .card-container {
+        background-color: #fd5000;
+        color: white;
+        margin-top: -60px;
+        height: 400px;
+        justify-content: center;
+    }
+}
+
+/* small screen size */
+@media only screen and (max-width: 700px) {
+    .what-we-offer-icon {
+        position: relative;
+        top: 0;
+        left: 40%;
+        color: #fd5000;
+
+    }
+
+    .body-text h5 {
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .card {
+        position: relative;
+        top: 0;
+        left: 8%;
+    }
+
+    .body-text p {
+        margin: 12px 10px;
+    }
+}
+
+
+/* ABOUT US STYLE */
+.container-bgd {
+    background-color: aliceblue;
+    color: black;
+}
+
+.about-us-info h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #fd5000;
+}
+
+.about-us-info h3 {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+@media only screen and (max-width: 700px) {
+    .about-us-info img {
+        width: 420px;
+        position: relative;
+        left: 4%;
+        padding-top: -50px;
+    }
+
+    .about-us-info h3,
+    h6,
+    p {
+        margin: 10px;
+    }
+}
+
+/* ARTICLES SERMON SECTION STARTS HERE*/
+.articles-card {
+    color: black;
+
+}
+
+.card-body-container h5 {
+    color: #0d1128;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+.card-body-container p {
+    color: black;
+}
+.card-body-container img{
+    height: 200px;
+}
+
+@media only screen and (max-width: 700px) {
+    .card-body-container {
+        width: 400px;
+        margin-top: -10px;
+    }
+}
+
+/* ARTICLES SERMON SECTION STYLES ENDS HERE */
+
+/* TESTIMONY SECTION STYLES STARTS HERE */
+.testimonial-container {
+    background: #fd5000;
+
+}
+
+.testimony-header-text h5 {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.testimony-header-text h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.testimonial p {
+    color: black;
+    line-height: 19px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.testimonial h5 {
+    color: black;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.col-md-4 {
+    margin-top: 25px;
+}
+
+/* TESTIMONY SECTION STYLES ENDS HERE */
+
+
+/* LIGHTBOX IMAGES SECTION STYLES STARTS HERE */
+.intro h2 {
+    font-weight: bolder;
+}
+.card a img{
+    height: 200px;
+}
+
+.lightbox-gallery {
+    /* background-image: linear-gradient(#0f1642e7, #484c6c);  */
+    background: rgba(240, 248, 255, 0.702);
+    background-repeat: no-repeat;
+    color: #000;
+    overflow-x: hidden
+}
+
+
+@media (max-width:767px) {
+    .lightbox-gallery h2 {
+        display: none;
+    }
+
+    .lightbox-gallery {
+        display: none;
+    }
+}
+
+/* LIGHTBOX IMAGES SECTION STYLES ENDS HERE */
+
+
+/* FOOTER SECTION STARTS */
+
+footer {
+    background-color: #0d1128 !important;
+    color: #FFFFFF !important;
+}
+
+.social {
+    position: relative;
+    left: -10px;
+}
+
+.subscribe-btn .Subscribe {
+    background-color: #fd5000;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #fd5000;
+}
+.subscribe-btn .Subscribe:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #fd5000;
+}
+@media (max-width:767px) { 
+    .list-unstyled{
+        position: relative;
+        left: 2%;
+    }
+} 
